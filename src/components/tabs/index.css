@@ -1,0 +1,22 @@
+.tabs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs li{
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.tabs li.active{
+  color: rgb(67, 93, 238);
+}
+
+.tabs li:hover{
+  background-color: grey;
+  color: white;
+}
